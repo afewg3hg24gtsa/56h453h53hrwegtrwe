@@ -47,7 +47,7 @@ function BlurredGui.new(frame)
 	blurPart.Anchored     = true
 	blurPart.CanCollide   = false
 	blurPart.CanTouch     = false
-	blurPart.Material     = Enum.Material.ForceField
+	blurPart.Material     = Enum.Material.Glass
 	blurPart.Transparency = PART_TRANSPARENCY
 	blurPart.Parent       = workspace.CurrentCamera
 
